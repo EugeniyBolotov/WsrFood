@@ -1,7 +1,7 @@
 const express = require('express');
 //import mysql from 'mysql2';
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 3300;
 const app = express();
 
 const CategoryRoutes = require('./routes/CategoryRoutes')
